@@ -1,0 +1,54 @@
+/*
+    This file contains all styles for our page
+    displaying breed information for cats.
+
+    Author: Jaron Bautista
+    File: styles.css
+    Date: 12/04/23
+ */
+body {
+    display: grid;
+    width: 700px;
+    margin: auto;
+    grid-template-columns: 200px 500px;
+    background-color: grey;
+}
+#left {
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+}
+#breeds {
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+#breed-info {
+    background-color: white;
+    border-radius: 8px;
+}
+#right {
+    border: 2px solid black;
+    width: 500px;
+    padding:5px;
+    text-align: unset;
+    background-color: white;
+    flex-wrap: wrap;
+
+}
+#bottom {
+    border: 2px solid black;
+    width: 710px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    width: 300px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+label {
+    font-weight: bold;
+}
